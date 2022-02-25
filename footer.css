@@ -2,8 +2,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin-top: 10rem;
-  height: 40rem;
-  width: 132rem;
+  height: 30rem;
   background-color: var(--card-color);
 }
 
@@ -19,9 +18,11 @@ footer {
     'footerContact footerContact'
     '. .';
 
-  margin: auto;
   margin-top: 2rem;
-  width: 80%;
+  width: 99vw;
+  padding: 3rem;
+  overflow: hidden;
+  justify-content:right;
 }
 
 .footerTitle {

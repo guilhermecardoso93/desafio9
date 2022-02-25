@@ -4,6 +4,7 @@
 @import url(./popular.css);
 @import url(./bestartist.css);
 @import url(./footer.css);
+
 :root {
   --body-background: #0e0e0e;
   --color-logo: #ff5b50;
@@ -22,14 +23,12 @@
 }
 
 body {
-  margin: 0rem;
+  margin: auto auto;
   margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  width: 120rem;
   background: var(--body-background);
- overflow:auto;
 }
-
