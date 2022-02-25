@@ -1,0 +1,105 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  width: 90%;
+
+}
+
+.heroPart {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 6rem;
+}
+
+.heroPartOne {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroPartOne span {
+  width: 450px;
+  height: 88px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 23px;
+  margin-bottom: 4rem;
+
+  color: var(--text-color);
+}
+
+.heroPartOne img {
+  width: 169px;
+  height: 87px;
+}
+
+.art {
+  display: flex;
+  align-items: flex-end;
+  gap: .5rem;
+}
+
+.heroPartTwo {
+  width: 55rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 80px;
+  color: var(--text-color)
+}
+
+.strongNfts {
+  color: var(--color-logo)
+}
+
+.heroPartTree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+}
+
+.heroPartTree img {
+  width: 250px;
+  height: 250px;
+}
+
+.spinner {
+  animation: loading 7s linear infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.heroImg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-content: center;
+
+  margin: auto auto;
+}
+
+.heroImg img {
+  width: 400.13px;
+  height: 300.98px;
+  border: 2px solid #5a5757;
+
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.heroImg img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+}

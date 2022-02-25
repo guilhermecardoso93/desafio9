@@ -1,0 +1,80 @@
+head {
+  display: flex;
+  overflow: hidden;
+}
+
+.navbar {
+  background-image: url('./assets/background.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 0%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 9rem;
+
+  width: 110%;
+}
+
+.navlogo {
+  display: flex;
+  width: 265px;
+  height: 43px;
+}
+
+.logo {
+  margin-left: -8rem;
+}
+
+.navLinks {
+  display: flex;
+  width: 40rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: var(--text-color);
+  gap: 4rem;
+}
+
+.navLinks a {
+  margin: 0;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navLinks a:hover {
+  color: var(--color-logo);
+}
+
+.network {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.network button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 50px;
+  gap: 1rem;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: var(--black-text);
+  border-radius: 5px;
+}
+
+.network button:hover {
+  background-color: var(--card-color);
+  color: var(--text-color);
+}
