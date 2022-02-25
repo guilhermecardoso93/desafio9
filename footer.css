@@ -1,0 +1,167 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  height: 40rem;
+  width: 132rem;
+  background-color: var(--card-color);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  grid-template-rows: 0.2fr 1.8fr 0.3fr 1.7fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'footerTitle footerTitle'
+    'footerIn footerLinks'
+    'footerContact footerContact'
+    '. .';
+
+  margin: auto;
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.footerTitle {
+  grid-area: footerTitle;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerTitle span {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+
+  background: #ff5b50;
+}
+
+.footerTitle .arrow {
+  width: 50px;
+  height: 50px;
+}
+
+.footerIn {
+  grid-area: footerIn;
+}
+
+.footerLinks {
+  grid-area: footerLinks;
+}
+
+.footerContact {
+  grid-area: footerContact;
+}
+
+.footerIn {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 4rem;
+}
+
+.footerIn h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #ff5b50;
+}
+
+.footerIn h3:first-child {
+  color: #ffffff;
+}
+
+.footerIn span {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: left;
+}
+
+.footerIn input {
+  width: 402px;
+  height: 40px;
+  background: #0d0d0d;
+  color: var(--subtitle-color);
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.footerIn button {
+  position: relative;
+  top: 1rem;
+  right: 4.4rem;
+  width: 70px;
+  height: 40px;
+  background: #ffffff;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.footerIn button:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: top center;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+
+  color: #ffffff;
+}
+
+.footerLinks li {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  color: #5a5757;
+}
+
+.footerLinks li:hover {
+  color: #ffffff;
+}
+
+.footerContact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+  color: #5a5757;
+}
+
+.footerContact img {
+  margin-left: 1rem;
+  transition: all 0.5s;
+  border: 10px solid transparent;
+}
+
+.footerContact img:hover {
+  border: 2px solid transparent;
+  border-radius: 50%;
+}

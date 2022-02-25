@@ -1,4 +1,4 @@
-.container {
+.popularBest   {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 1.8fr 1fr;
@@ -11,7 +11,7 @@
   align-self: center;
   justify-content: center;
   margin: 0 25rem 0;
-
+  margin-bottom: 2rem;
 }
 
 .title {
@@ -79,17 +79,15 @@
   font-size: 20px;
   line-height: 24px;
 
-  color: #FFFFFF;
-  gap:1rem;
+  color: #ffffff;
+  gap: 1rem;
 }
 
-
-
-.container .title h3 {
+.popularBest .title h3 {
   color: #ff5b50;
 }
 
-.container .title h3:first-child {
+.popularBest .title h3:first-child {
   color: #ffffff;
 }
 
@@ -109,7 +107,6 @@
 .artInf span:first-child,
 .artInf1 {
   color: #ffffff;
-
 }
 
 .art1:hover {

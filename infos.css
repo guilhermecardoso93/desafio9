@@ -7,11 +7,13 @@
     "infos lorem1 lorem2 lorem2"
     "infos image image image"
     ". . . .";
-  width: 110rem;
-  height: 45rem;
+  width: 100rem;
+  height: 40rem;
   margin: 6rem;
+  margin-left: 16rem;
   margin-bottom: 0;
-  color: var(--text-color)
+  color: var(--text-color);
+  overflow: hidden;
 }
 
 .infos {
@@ -90,18 +92,14 @@
 
 }
 
-.infosImg {
+.infosImg  img{
   display: flex;
   align-items: flex-end;
+  z-index: 2;
   margin: 0;
   padding-left: 5rem;
-}
-
-.infosImg img {
-  display: flex;
+  width: 120rem;
   width: 1958px;
   height: 400px;
-
   overflow: hidden;
-
 }

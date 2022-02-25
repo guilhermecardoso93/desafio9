@@ -10,8 +10,6 @@
     '. . . .';
 
   height: 80rem;
-  width: auto;
-  margin-bottom: 5rem;
 }
 
 .popularTitle {
@@ -38,6 +36,7 @@
   margin-left: 20rem;
   margin-bottom: 0rem;
   color: var(--text-color);
+
 }
 
 .popularTitle {
@@ -51,6 +50,8 @@
   font-weight: bold;
   font-size: 50px;
   line-height: 61px;
+
+
 }
 
 .popularTitle h3:first-child {
@@ -61,10 +62,10 @@
 .popularThing3 {
   display: flex;
   flex-direction: column;
-  padding-right: 5rem;
+  padding-right: 10rem;
   padding-bottom: 4rem;
 
-  border-right: 1px solid #5a5757;
+  border-right: 1px solid #5A5757;
 }
 
 .popularThing2,
@@ -72,7 +73,8 @@
   display: flex;
   flex-direction: column;
 
-  margin-left: 5rem;
+  margin-left: 10rem;
+
 }
 
 .spantitle {
@@ -91,6 +93,7 @@
   line-height: 37px;
 }
 
+
 .spanName {
   display: flex;
   flex-direction: row;
@@ -103,9 +106,9 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  color: #5a5757;
+  color: #5A5757;
 }
 
 .spanNumber {
-  color: #ff5b50;
+  color: #FF5B50;
 }
